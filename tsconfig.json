@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "skipLibCheck": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "removeComments": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "downlevelIteration": true,
+    "lib": ["es5", "es2017", "dom", "scripthost"]
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules"]
+}
